@@ -1,10 +1,10 @@
 {
-  "name": "unpathify",
-  "version": "0.1.1",
-  "description": "Compress browserify require paths for better minification i.e. require('some/long/path') => require(1)",
+  "name": "unpathify-alt",
+  "version": "0.2.1",
+  "description": "Unpathify with browser-unpack 1.0.0. Compress browserify require paths for better minification i.e. require('some/long/path') => require(1)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/smallhelm/unpathify.git"
+    "url": "https://github.com/taylorhakes/unpathify.git"
   },
   "keywords": [
     "browserify",
@@ -21,12 +21,12 @@
   "bin": {
     "unpathify": "bin/unpathify"
   },
-  "author": "smallhelm",
+  "contributors": ["smallhelm", "taylorhakes"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smallhelm/unpathify/issues"
+    "url": "https://github.com/taylorhakes/unpathify/issues"
   },
-  "homepage": "https://github.com/smallhelm/unpathify",
+  "homepage": "https://github.com/taylorhakes/unpathify",
   "dependencies": {
     "lodash": "~2.4.1",
     "browser-unpack": "~1.0.0",
